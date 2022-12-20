@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#brand{
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+}
+.nav-item{
+    font-size: 15px;
+    font-weight: 400;
+}
+#cart{
+    padding: 30px;
+    
+}
+.pic{
+    height: 50px;
+}
+.but1{
+    height: 50px;
+    width: 130px;
+    border: 0;
+    border-radius: 10px;
+}
+.but2{
+    height: 50px;
+    width: 200px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #fe8100;
+    color: white;
+}
+#img{
+    height: 400px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.imgg{
+    height: 100px;
+    border-radius: 10px;
+}
+
+.big{
+    font-size: 13px;
+    font-family: sans-serif;
+    color: #fe8100;
+    margin-bottom: 20px;
+}
+.bigg{
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+
+.small{
+    color: gray;
+    margin-bottom: 20px;
+}
+.biggg{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.smalll{
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 30px;
+}
+
+.but3{
+    height: 25px;
+    width: 40px;
+    border: 0;
+    font-size: 15px;
+    color: #fe8100;
+}
+.s1{
+    color: #fe8100;
+    
+}
+.s2{
+    color: #fe8100;
+}
+@media (max-width: 600px) {
+   .imgg{
+        display: none;
+    }
+
+    .but1{
+        height: 60px;
+        width: 350px;
+        margin-bottom: 20px;
+    }
+
+    .but2 {
+        height: 60px;
+        width: 350px;
+    }
+}
